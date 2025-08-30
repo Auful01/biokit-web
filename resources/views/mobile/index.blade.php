@@ -78,7 +78,7 @@
         </div>
     </div>
 
-    <div class="text-center">
+    <div class="text-center mb-4">
         <form action="{{ route('mobile.degradation') }}" method="POST">
             @csrf
             <button class="btn btn-primary">
