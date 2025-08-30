@@ -105,7 +105,7 @@
                     const latestFeed = response.data[response.data.length - 1];
                     $('#temperature').text(latestFeed.suhu + '°C');
                     $('#weight').text(latestFeed.berat + 'g');
-                    $('#clearness').text(latestFeed.ntu);
+                    $('#clearness').text(latestFeed.ntu + '%');
                     $('#ph').text(latestFeed.ph);
 
                     datas.push(response.data);
