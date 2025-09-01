@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="{{ asset('style.css') }}">
     <link rel="stylesheet" href="{{ asset('owlcarousel/dist/assets/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('owlcarousel/dist/assets/owl.theme.default.min.css') }}">
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <style>
      body {
@@ -40,6 +40,10 @@
     .bt-outline-primary:hover{
         background: #185a8a;
         color: white;
+    }
+
+    .txt-primary{
+        color: #185a8a;
     }
 
     .bt-primary:hover{
